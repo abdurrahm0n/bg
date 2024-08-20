@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container{
+    min-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-top> .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.header-top-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.language select{
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+
+}
+
+.header-top-right button{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: black;
+    padding: 24px 45px;
+    background-color: #F1A900;
+    border: none;
+}
+
+nav{
+    background-color: #222222;
+    padding: 15px 0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+ul a, select{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/images/image\ 5\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    width: 235px;
+    height: 73px;
+    font-weight: 700;
+    font-size: 40px;
+    border: none;
+}
+
+.buttons{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.buttons button{
+    background-color: #F1A900;
+}
+
+.button-color button{
+    color: white;
+    background-color: #000000;
+}
+
+.h1{
+    text-align: center;
+    background-color: #F1A90054;
+    width: 966px;
+    height: 202px;
+    border-radius: 10px;
+    margin: 31px auto;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 31px 22px 31px 22px;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footer-bottom-right{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
